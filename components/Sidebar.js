@@ -15,15 +15,10 @@ import SidebarMenuItem from "./SidebarMenuItem";
 
 const Sidebar = () => {
     return (
-        <div className="hidden sm:flex flex-col xl:items-start fixed h-full p-2">
+        <div className="hidden sm:flex flex-col xl:items-start fixed h-full p-2 ">
             {/*Twitter log */}
             <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
-                <Image
-                 width="50"
-                 height="50"
-                 src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png">
-
-                </Image>
+            <img src="/images/tweet.png" alt="" className="h-12 w-12" />
             </div>
 
             {/* Menu */}
@@ -43,7 +38,7 @@ const Sidebar = () => {
         
               </div>
             {/*Button */}
-             <button className=" text-white bg-gradient-to-r from-blue-400 to-blue-700 rounded-full w-56 h-12 font-bold shadow-blue-200 shadow-lg hover:brightness-95 text-lg hidden xl:inline tracking-wider">
+             <button className=" text-white bg-gradient-to-r from-blue-400 to-blue-700 rounded-full w-56 h-12 font-bold shadow-blue-200 shadow-lg hover:brightness-95 text-lg hidden xl:inline tracking-wider ">
                  Tweet
              </button>
             {/* mini-profile */}
