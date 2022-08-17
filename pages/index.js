@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Feed from '../components/Feed'
 import Input from '../components/Input'
 import Sidebar from '../components/Sidebar'
+import Widgets from '../components/Widgets'
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
         
 
         {/* Widgets */}
-        
+        <Widgets/>
         
 
         {/* Modal */}

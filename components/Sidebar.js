@@ -15,7 +15,7 @@ import SidebarMenuItem from "./SidebarMenuItem";
 
 const Sidebar = () => {
     return (
-        <div className="hidden sm:flex flex-col xl:items-start fixed h-full p-2 ">
+        <div className="hidden sm:flex flex-col xl:items-start fixed h-full p-2 xl:ml-24 ">
             {/*Twitter log */}
             <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
             <img src="/images/tweet.png" alt="" className="h-12 w-12" />

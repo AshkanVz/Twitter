@@ -20,7 +20,7 @@ const Input = () => {
                 
               ></textarea>
             </div>
-            <hr className=" mt-4 h-0.5 leading-5 bg-gray-800"/>
+            <hr className=" mt-4 h-0.5 leading-5 bg-gray-600"/>
               
           
             <div className="flex items-center justify-between pt-2.5">
